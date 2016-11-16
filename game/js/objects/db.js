@@ -10,7 +10,7 @@ var db = {
     }
 
     return $.ajax({
-      url: "http://localhost:8000/api/character/items?token="+token
+      url: "http://mordin.asuscomm.com:8000/api/character/items?token="+token
     });
   },
 
@@ -29,7 +29,7 @@ var db = {
       token = localStorage.getItem("token");
     }
         $.ajax({
-          url: "http://localhost:8000/api/CharactersMonster/addMonster?token="+token,
+          url: "http://mordin.asuscomm.com:8000/api/CharactersMonster/addMonster?token="+token,
           method: 'POST',
           success: function(result) {
             m.id = result.id;
@@ -51,7 +51,7 @@ var db = {
       token = localStorage.getItem("token");
     }
         $.ajax({
-          url: "http://localhost:8000/api/character/setPosition?token="+token,
+          url: "http://mordin.asuscomm.com:8000/api/character/setPosition?token="+token,
           method: 'POST',
           success: function(result) {
             console.log(result);
@@ -69,7 +69,7 @@ var db = {
       token = localStorage.getItem("token");
     }
         $.ajax({
-          url: "http://localhost:8000/api/character/itemAmounts?token="+token,
+          url: "http://mordin.asuscomm.com:8000/api/character/itemAmounts?token="+token,
           method: 'POST',
           success: function(result) {
             console.log(result);
@@ -93,13 +93,13 @@ var db = {
 
     $.when(monsterO,slot,
       $.ajax({
-      url: "http://localhost:8000/api/monster/name/"+monsterO.name,
+      url: "http://mordin.asuscomm.com:8000/api/monster/name/"+monsterO.name,
       })
     ).then(
       function(monsterO,slot,m){
         console.log(m);
         $.ajax({
-          url: "http://localhost:8000/api/character/updateMonster?token="+token,
+          url: "http://mordin.asuscomm.com:8000/api/character/updateMonster?token="+token,
           method: 'POST',
           data: {monsterId: m[0][0].id,  attack1: monsterO.attacks[0].id, attack2: monsterO.attacks[1].id, attack3: monsterO.attacks[2].id, attack4: monsterO.attacks[3].id, speed: monsterO.speed, level: monsterO.level, hp: monsterO.hp, mana: monsterO.mana, attack: monsterO.damage, defense:monsterO.defense, maxMana: monsterO.maxMana, maxHp: monsterO.maxHp, xp: monsterO.xp, id: monsterO.id, slot: slotId}
         });
