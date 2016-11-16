@@ -1,0 +1,60 @@
+{"frames": {
+
+"battle_background.png":
+{
+	"frame": {"x":1,"y":1,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600}
+},
+"infoBackground_enemy.png":
+{
+	"frame": {"x":343,"y":603,"w":258,"h":105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":105},
+	"sourceSize": {"w":258,"h":105}
+},
+"infoBackground_self.png":
+{
+	"frame": {"x":1,"y":603,"w":340,"h":138},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":340,"h":138},
+	"sourceSize": {"w":340,"h":138}
+},
+"pokeball.png":
+{
+	"frame": {"x":495,"y":710,"w":16,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"sourceSize": {"w":16,"h":16}
+},
+"pokeball_background.png":
+{
+	"frame": {"x":343,"y":710,"w":150,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":26},
+	"sourceSize": {"w":150,"h":26}
+},
+"pokeball_gray.png":
+{
+	"frame": {"x":513,"y":710,"w":16,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"sourceSize": {"w":16,"h":16}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "battle.png",
+	"format": "RGBA8888",
+	"size": {"w":802,"h":742},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4223987f794d95067fb2ed61f295b72e:b47b16d4297e6e0c409d7108e615113d:a24a04ff4d7d4734fe9e4e18b8de1a1c$"
+}
+}

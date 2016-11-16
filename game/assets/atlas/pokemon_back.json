@@ -1,0 +1,638 @@
+{"frames": {
+
+"Bulbasaur":
+{
+	"frame": {"x":1625,"y":97,"w":32,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":30},
+	"sourceSize": {"w":32,"h":30}
+},
+"Caterpie":
+{
+	"frame": {"x":1966,"y":80,"w":33,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":34},
+	"sourceSize": {"w":33,"h":34}
+},
+"Metapod":
+{
+	"frame": {"x":1775,"y":46,"w":32,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":43},
+	"sourceSize": {"w":32,"h":43}
+},
+"Butterfree":
+{
+	"frame": {"x":257,"y":76,"w":58,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":58,"h":51},
+	"sourceSize": {"w":58,"h":51}
+},
+"Weedle":
+{
+	"frame": {"x":1928,"y":84,"w":36,"h":38},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":38},
+	"sourceSize": {"w":36,"h":38}
+},
+"Kakuna":
+{
+	"frame": {"x":1940,"y":1,"w":21,"h":39},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":39},
+	"sourceSize": {"w":21,"h":39}
+},
+"Beedrill":
+{
+	"frame": {"x":872,"y":68,"w":60,"h":59},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":59},
+	"sourceSize": {"w":60,"h":59}
+},
+"Pidgey":
+{
+	"frame": {"x":1863,"y":45,"w":40,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":40},
+	"sourceSize": {"w":40,"h":40}
+},
+"Pidgeotto":
+{
+	"frame": {"x":87,"y":1,"w":75,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":77},
+	"sourceSize": {"w":75,"h":77}
+},
+"Pidgeot":
+{
+	"frame": {"x":735,"y":1,"w":63,"h":66},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":66},
+	"sourceSize": {"w":63,"h":66}
+},
+"Rattata":
+{
+	"frame": {"x":1854,"y":1,"w":48,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":42},
+	"sourceSize": {"w":48,"h":42}
+},
+"Ivysaur":
+
+{
+	"frame": {"x":1641,"y":1,"w":57,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":45},
+	"sourceSize": {"w":57,"h":45}
+},
+"Raticate":
+
+{
+	"frame": {"x":1170,"y":66,"w":57,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":52},
+	"sourceSize": {"w":57,"h":52}
+},
+"Spearow":
+{
+	"frame": {"x":1904,"y":1,"w":34,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":40},
+	"sourceSize": {"w":34,"h":40}
+},
+"Fearow":
+{
+	"frame": {"x":164,"y":1,"w":70,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":77},
+	"sourceSize": {"w":70,"h":77}
+},
+"Ekans":
+{
+	"frame": {"x":212,"y":80,"w":43,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":43,"h":47},
+	"sourceSize": {"w":43,"h":47}
+},
+"Arbok":
+{
+	"frame": {"x":800,"y":1,"w":63,"h":66},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":66},
+	"sourceSize": {"w":63,"h":66}
+},
+"Pikachu":
+{
+	"frame": {"x":1585,"y":51,"w":35,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":47},
+	"sourceSize": {"w":35,"h":47}
+},
+"Raichu":
+{
+	"frame": {"x":865,"y":1,"w":63,"h":65},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":65},
+	"sourceSize": {"w":63,"h":65}
+},
+"Sandshrew":
+{
+	"frame": {"x":1847,"y":89,"w":40,"h":38},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":38},
+	"sourceSize": {"w":40,"h":38}
+},
+"Sandslash":
+{
+	"frame": {"x":1479,"y":1,"w":52,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":48},
+	"sourceSize": {"w":52,"h":48}
+},
+"Female-Nidoran":
+{
+	"frame": {"x":1945,"y":42,"w":32,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":36},
+	"sourceSize": {"w":32,"h":36}
+},
+"Venusaur":
+{
+	"frame": {"x":1007,"y":1,"w":81,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":81,"h":63},
+	"sourceSize": {"w":81,"h":63}
+},
+"Nidorina":
+{
+	"frame": {"x":1736,"y":1,"w":49,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":43},
+	"sourceSize": {"w":49,"h":43}
+},
+"Nidoqueen":
+{
+	"frame": {"x":381,"y":1,"w":78,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":68},
+	"sourceSize": {"w":78,"h":68}
+},
+"Male-Nidoran":
+{
+	"frame": {"x":1889,"y":87,"w":37,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":37,"h":40},
+	"sourceSize": {"w":37,"h":40}
+},
+"Nidorino":
+{
+	"frame": {"x":1229,"y":66,"w":54,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":52},
+	"sourceSize": {"w":54,"h":52}
+},
+"Nidoking":
+{
+	"frame": {"x":1090,"y":1,"w":80,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":80,"h":63},
+	"sourceSize": {"w":80,"h":63}
+},
+"Clefairy":
+{
+	"frame": {"x":43,"y":86,"w":46,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":40},
+	"sourceSize": {"w":46,"h":40}
+},
+"Clefable":
+{
+	"frame": {"x":1360,"y":55,"w":53,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":51},
+	"sourceSize": {"w":53,"h":51}
+},
+"Vulpix":
+{
+	"frame": {"x":1420,"y":1,"w":57,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":48},
+	"sourceSize": {"w":57,"h":48}
+},
+"Ninetales":
+{
+	"frame": {"x":930,"y":1,"w":75,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":64},
+	"sourceSize": {"w":75,"h":64}
+},
+"Jigglypuff":
+{
+	"frame": {"x":1718,"y":92,"w":35,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":35},
+	"sourceSize": {"w":35,"h":35}
+},
+"Charmander":
+{
+	"frame": {"x":1,"y":86,"w":40,"h":41},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":41},
+	"sourceSize": {"w":40,"h":41}
+},
+"Wigglytuff":
+{
+	"frame": {"x":605,"y":71,"w":40,"h":54},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":54},
+	"sourceSize": {"w":40,"h":54}
+},
+"Zubat":
+{
+	"frame": {"x":1534,"y":51,"w":49,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":48},
+	"sourceSize": {"w":49,"h":48}
+},
+"Golbat":
+{
+	"frame": {"x":1241,"y":1,"w":80,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":80,"h":62},
+	"sourceSize": {"w":80,"h":62}
+},
+"Oddish":
+{
+	"frame": {"x":1807,"y":91,"w":38,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":36},
+	"sourceSize": {"w":38,"h":36}
+},
+"Gloom":
+{
+	"frame": {"x":1666,"y":48,"w":48,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":45},
+	"sourceSize": {"w":48,"h":45}
+},
+"Vileplume":
+{
+	"frame": {"x":1476,"y":51,"w":56,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":56,"h":48},
+	"sourceSize": {"w":56,"h":48}
+},
+"Paras":
+{
+	"frame": {"x":1963,"y":1,"w":47,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":47,"h":32},
+	"sourceSize": {"w":47,"h":32}
+},
+"Parasect":
+{
+	"frame": {"x":989,"y":67,"w":60,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":52},
+	"sourceSize": {"w":60,"h":52}
+},
+"Venonat":
+{
+	"frame": {"x":1323,"y":1,"w":42,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":42,"h":52},
+	"sourceSize": {"w":42,"h":52}
+},
+"Venomoth":
+{
+	"frame": {"x":1172,"y":1,"w":67,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":63},
+	"sourceSize": {"w":67,"h":63}
+},
+"Charmeleon":
+{
+	"frame": {"x":699,"y":69,"w":49,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":58},
+	"sourceSize": {"w":49,"h":58}
+},
+"Diglett":
+{
+	"frame": {"x":1585,"y":100,"w":38,"h":27},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":27},
+	"sourceSize": {"w":38,"h":27}
+},
+"Dugtrio":
+{
+	"frame": {"x":1809,"y":45,"w":52,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":42},
+	"sourceSize": {"w":52,"h":42}
+},
+"Meowth":
+{
+	"frame": {"x":160,"y":80,"w":50,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":47},
+	"sourceSize": {"w":50,"h":47}
+},
+"Persian":
+{
+	"frame": {"x":385,"y":71,"w":77,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":77,"h":56},
+	"sourceSize": {"w":77,"h":56}
+},
+"Psyduck":
+{
+	"frame": {"x":1700,"y":1,"w":34,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":44},
+	"sourceSize": {"w":34,"h":44}
+},
+"Golduck":
+{
+	"frame": {"x":817,"y":69,"w":53,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":57},
+	"sourceSize": {"w":53,"h":57}
+},
+"Mankey":
+{
+	"frame": {"x":1415,"y":54,"w":59,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":48},
+	"sourceSize": {"w":59,"h":48}
+},
+"Primeape":
+{
+	"frame": {"x":537,"y":71,"w":66,"h":54},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":54},
+	"sourceSize": {"w":66,"h":54}
+},
+"Growlithe":
+{
+	"frame": {"x":1586,"y":1,"w":53,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":46},
+	"sourceSize": {"w":53,"h":46}
+},
+"Arcanine":
+{
+	"frame": {"x":461,"y":1,"w":67,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":68},
+	"sourceSize": {"w":67,"h":68}
+},
+"Charizard":
+{
+	"frame": {"x":1,"y":1,"w":84,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":83},
+	"sourceSize": {"w":84,"h":83}
+},
+"Poliwag":
+{
+	"frame": {"x":1755,"y":92,"w":50,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":34},
+	"sourceSize": {"w":50,"h":34}
+},
+"Poliwhirl":
+{
+	"frame": {"x":91,"y":80,"w":67,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":47},
+	"sourceSize": {"w":67,"h":47}
+},
+"Poliwrath":
+{
+	"frame": {"x":464,"y":71,"w":71,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":56},
+	"sourceSize": {"w":71,"h":56}
+},
+"Abra":
+{
+	"frame": {"x":1716,"y":47,"w":57,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":43},
+	"sourceSize": {"w":57,"h":43}
+},
+"Kadabra":
+{
+	"frame": {"x":750,"y":69,"w":65,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":65,"h":57},
+	"sourceSize": {"w":65,"h":57}
+},
+"Alakazam":
+{
+	"frame": {"x":657,"y":1,"w":76,"h":66},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":66},
+	"sourceSize": {"w":76,"h":66}
+},
+"Machop":
+{
+	"frame": {"x":1367,"y":1,"w":51,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":51},
+	"sourceSize": {"w":51,"h":51}
+},
+"Machoke":
+{
+	"frame": {"x":598,"y":1,"w":57,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":68},
+	"sourceSize": {"w":57,"h":68}
+},
+"Machamp":
+{
+	"frame": {"x":312,"y":1,"w":67,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":69},
+	"sourceSize": {"w":67,"h":69}
+},
+"Bellsprout":
+{
+	"frame": {"x":1622,"y":49,"w":42,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":42,"h":46},
+	"sourceSize": {"w":42,"h":46}
+},
+"Squirtle":
+{
+	"frame": {"x":1905,"y":43,"w":38,"h":39},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":39},
+	"sourceSize": {"w":38,"h":39}
+},
+"Weepinbell":
+{
+	"frame": {"x":1533,"y":1,"w":51,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":48},
+	"sourceSize": {"w":51,"h":48}
+},
+"Victreebel":
+{
+	"frame": {"x":530,"y":1,"w":66,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":68},
+	"sourceSize": {"w":66,"h":68}
+},
+"Tentacool":
+{
+	"frame": {"x":647,"y":71,"w":50,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":53},
+	"sourceSize": {"w":50,"h":53}
+},
+"Tentacruel":
+{
+	"frame": {"x":1285,"y":65,"w":73,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":62},
+	"sourceSize": {"w":73,"h":62}
+},
+"Geodude":
+{
+	"frame": {"x":1659,"y":97,"w":57,"h":28},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":28},
+	"sourceSize": {"w":57,"h":28}
+},
+"Graveler":
+{
+	"frame": {"x":1787,"y":1,"w":65,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":65,"h":42},
+	"sourceSize": {"w":65,"h":42}
+},
+"Golem":
+{
+	"frame": {"x":317,"y":72,"w":66,"h":55},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":55},
+	"sourceSize": {"w":66,"h":55}
+},
+"Ponyta":
+{
+	"frame": {"x":934,"y":67,"w":53,"h":59},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":59},
+	"sourceSize": {"w":53,"h":59}
+},
+"Rapidash":
+{
+	"frame": {"x":236,"y":1,"w":74,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":73},
+	"sourceSize": {"w":74,"h":73}
+},
+"Wartortle":
+{
+	"frame": {"x":1116,"y":66,"w":52,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":61},
+	"sourceSize": {"w":52,"h":61}
+},
+"Blastoise":
+{
+	"frame": {"x":1051,"y":66,"w":63,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":61},
+	"sourceSize": {"w":63,"h":61}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "pokemon_back.png",
+	"format": "RGBA8888",
+	"size": {"w":2011,"h":128},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3365f2091c0df6a5b1e3d2637b3792e1:a4326582f7cb2fd69006a9381aaae7d5:b41b1a5bbd5f97f85becc7c5d3f4dcc4$"
+}
+}
