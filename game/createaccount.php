@@ -18,7 +18,7 @@
 
       var createCharacter = function(name){
         return $.ajax({
-          url: "http://localhost:8000/api/charcreate",
+          url: "http://mordin.asuscomm.com:8000/api/charcreate",
           method: 'POST',
           data: {Charname: name}
         });
@@ -27,7 +27,7 @@
       var createUser = function(username, password, character){
         var id = character[2].responseJSON.charId;
         $.ajax({
-          url: "http://localhost:8000/api/signup",
+          url: "http://mordin.asuscomm.com:8000/api/signup",
           method: 'POST',
           data: {Username: username, Password: password, CharacterId: id},
           success: function() {

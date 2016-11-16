@@ -621,7 +621,7 @@ var combat = {
       game.paused = true;
       $.when(
          $.ajax({
-            url: "http://localhost:8000/api/monster/name/"+self.npcMonster.name
+            url: "http://mordin.asuscomm.com:8000/api/monster/name/"+self.npcMonster.name
           })
       ).then(
             function(mo) {

@@ -35,7 +35,7 @@
           $("form").submit(function(e){
               e.preventDefault();
               $.ajax({
-                url: "http://localhost:8000/api/login",
+                url: "http://mordin.asuscomm.com:8000/api/login",
                 method: 'POST',
                 data: {Username: user.value, Password: pass.value}
                   }).done(function(result) {

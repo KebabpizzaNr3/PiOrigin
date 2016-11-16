@@ -231,7 +231,7 @@ var explorationMode={
           socket.emit('leave_room');
           $.ajax({
 
-            url: "http://localhost:8000/api/area/id/"+child.tpAreaId,
+            url: "http://mordin.asuscomm.com:8000/api/area/id/"+child.tpAreaId,
             success: function(newArea) {
 
               // Set the new values
@@ -306,7 +306,7 @@ var explorationMode={
   getCharactersByType: function(types){
     game.paused = true;
     return $.ajax({
-      url: "http://localhost:8000/api/monster/type/" + types
+      url: "http://mordin.asuscomm.com:8000/api/monster/type/" + types
     });
   },
 
@@ -317,7 +317,7 @@ var explorationMode={
 
   getMonsterAttacksById: function(monster) {
     return $.ajax({
-      url: "http://localhost:8000/api/monster/" + JSON.stringify([monster.id]) + "/attacks"
+      url: "http://mordin.asuscomm.com:8000/api/monster/" + JSON.stringify([monster.id]) + "/attacks"
     });
   },
 
@@ -334,7 +334,7 @@ var explorationMode={
       var attackIds = JSON.stringify(arr);
 
       $.ajax({
-        url: "http://localhost:8000/api/attack/" + attackIds,
+        url: "http://mordin.asuscomm.com:8000/api/attack/" + attackIds,
         success: function(result){
           var attacks = _.sampleSize(result,4);
           explorationMode.startRandomEncounter(monster,attacks);
