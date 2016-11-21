@@ -24,7 +24,7 @@ if(is_null($dir)) {
 <meta charset='utf-8' />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title><?=isset($title) ? $title . ' | Pallettown' : 'Pallettown'?></title>
+<title><?=isset($title) ? $title . ' | Home' : 'Home'?></title>
 <?php if(file_exists($styleDir.'style.less')) : ?>
 <link rel="stylesheet/less" type="text/css" href="<?=$styleDir?>style.less">
 <?php else : ?>

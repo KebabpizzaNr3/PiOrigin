@@ -1,5 +1,5 @@
-//var socket = io('10.22.15.109:9058');
 var socket = io('mordin.asuscomm.com:9058');
+//var socket = io('mordin.asuscomm.com:9058');
 var yourId;
 
 socket.on('connection',function(data){
