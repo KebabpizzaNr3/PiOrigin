@@ -203,7 +203,7 @@ var monster = function(id,n,hp,mana,xp,mHp,mMana,speed,defense,damage,lvl,type,a
         combat.removeText(text);
         $.when(currentLvl,self,
           $.ajax({
-          url: "http://mordin.asuscomm.com:8000/api/monster/name/"+self.name,
+          url: "http://37.123.188.101:8000/api/monster/name/"+self.name,
         })).then(CheckEvolve);
       },1500);
     } else {
@@ -217,7 +217,7 @@ var monster = function(id,n,hp,mana,xp,mHp,mMana,speed,defense,damage,lvl,type,a
     if(m.evolveLevel <= self.level) {
       $.when(currentLvl,self,
         $.ajax({
-        url: "http://mordin.asuscomm.com:8000/api/monster/id/"+(m.id+1),
+        url: "http://37.123.188.101:8000/api/monster/id/"+(m.id+1),
         success: function(mon) {
           mon = mon[0];
           self.name = mon.name;
@@ -231,7 +231,7 @@ var monster = function(id,n,hp,mana,xp,mHp,mMana,speed,defense,damage,lvl,type,a
           m = m[0][0];
           $.when(currentLvl,self,
             $.ajax({
-            url: "http://mordin.asuscomm.com:8000/api/monster/"+JSON.stringify([m.id,m.id+1])+"/attacks",
+            url: "http://37.123.188.101:8000/api/monster/"+JSON.stringify([m.id,m.id+1])+"/attacks",
           })
         ).then(checkAttacks);
         }
@@ -240,7 +240,7 @@ var monster = function(id,n,hp,mana,xp,mHp,mMana,speed,defense,damage,lvl,type,a
     } else {
       $.when(currentLvl,self,
         $.ajax({
-        url: "http://mordin.asuscomm.com:8000/api/monster/"+JSON.stringify([m.id])+"/attacks",
+        url: "http://37.123.188.101:8000/api/monster/"+JSON.stringify([m.id])+"/attacks",
       })
     ).then(checkAttacks);
     }
@@ -259,7 +259,7 @@ var monster = function(id,n,hp,mana,xp,mHp,mMana,speed,defense,damage,lvl,type,a
         unpause = false;
         $.when(self,
           $.ajax({
-          url: "http://mordin.asuscomm.com:8000/api/attack/"+JSON.stringify([attack.AttackId]),
+          url: "http://37.123.188.101:8000/api/attack/"+JSON.stringify([attack.AttackId]),
         })
       ).then(function(self,attack){
         attack = attack[0][0];

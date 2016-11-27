@@ -27,13 +27,13 @@ var bootState = {
       }
 
       $.ajax({
-        url: "http://mordin.asuscomm.com:8000/api/user?token="+token,
+        url: "http://37.123.188.101:8000/api/user?token="+token,
         success: function(result) {
           if(result.success === false) {
               window.location.replace("login.php");
           } else {
           $.ajax({
-            url: "http://mordin.asuscomm.com:8000/api/character?token="+token,
+            url: "http://37.123.188.101:8000/api/character?token="+token,
             success: function(resultC) {
 
               $.when(resultC,bootState.getArea(resultC.areaId), bootState.getMonsters(token)).then(bootState.startState);
@@ -46,13 +46,13 @@ var bootState = {
 
   getArea: function(id) {
     return $.ajax({
-      url: "http://mordin.asuscomm.com:8000/api/area/id/"+id
+      url: "http://37.123.188.101:8000/api/area/id/"+id
     });
   },
 
   getMonsters: function(token) {
   return $.ajax({
-      url: "http://mordin.asuscomm.com:8000/api/character/monsters?token="+token,
+      url: "http://37.123.188.101:8000/api/character/monsters?token="+token,
     });
   },
 

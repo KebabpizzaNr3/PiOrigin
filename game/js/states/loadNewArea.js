@@ -14,7 +14,7 @@ var loadNewArea = {
 
   create: function() {
     $.ajax({
-      url: "http://mordin.asuscomm.com:8000/api/area/items/"+userInfo.areaId,
+      url: "http://37.123.188.101:8000/api/area/items/"+userInfo.areaId,
       success: function(items) {
         game.input.keyboard.start();
         game.state.start('explorationMode',true,false,
